@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'gs#^$a&&_kljlu9u08238';
 
 /*
 |--------------------------------------------------------------------------
@@ -357,6 +357,13 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+/*
+|--------------------------------------------------------------------------
+| JQuery
+|--------------------------------------------------------------------------
+*/
+$config['javascript_location'] = 'js/jquery/jquery-1.7.2.js';
+$config['javascript_ajax_img'] = 'images/ajax-loader.gif';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
