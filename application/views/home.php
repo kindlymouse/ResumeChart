@@ -3,10 +3,19 @@
 	<title>画简历--新一代图形化简历工具，让你的简历亮起来</title>
 
  	<?php $this->load->view('global/head'); ?>
-	
+	<script type="text/Javascript" src="<?=base_url()?>assets/easySlides/js/jquery.easyslides.min.v1.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/easySlides/css/easySlides.default.min.css" />	
 	<script>
 	$(function(){
-		$("#bt_sign_in").button({icons:{primary: "ui-icon-locked"}});
+		var myOptions = {
+			     noImages: 2,
+			     path: "<?=base_url()?>_images/theme/v1/sliders/",
+			     links: { 
+			     },
+			     timerInterval: 10000, 
+			    randomise: false
+			 };
+			 $('#easy_slides_container').easySlides(myOptions);
 	});
 	</script>
 </head>
@@ -22,8 +31,8 @@
 <div class="slider">
 	<div class="slides">
 		<div class="slide" style="display:block;">
-			<div class="slide-pic">
-				<img src="<?=base_url()?>_images/theme/v1/sliders/slider_2.png"  alt="画简历" />
+			<div id="easy_slides_container" class="slide-pic">
+				<!-- <img src="<?=base_url()?>_images/theme/v1/sliders/slider_3.png"  alt="画简历" /> -->
 			</div>
 			<div class="actions">
 				<a href="/signup" class="cta">

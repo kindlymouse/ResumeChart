@@ -14,6 +14,7 @@
 | path to your installation.
 |
 */
+//$config['base_url']	= 'http://119.85.24.191:9090/ResumeChart/';
 $config['base_url']	= 'http://localhost:9090/ResumeChart/';
 
 /*
@@ -106,7 +107,7 @@ $config['enable_hooks'] = FALSE;
 | http://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'RC_';
 
 
 /*

@@ -8,7 +8,7 @@
 	
 	<link rel="icon" href="<?=base_url()?>favicon.ico" type="image/png" />
     <link type="text/css" rel="stylesheet" href="<?=base_url()?>_css/theme/v1/main.css" media="all" />
-	<link rel="stylesheet" href="<?=base_url()?>assets/css/ui-lightness/jquery-ui-1.8.18.custom.css">
-	<script src="<?=base_url()?>assets/js/jquery/jquery-1.7.2.js"></script>
-	<script src="<?=base_url()?>assets/js/jquery/jquery-ui-1.8.18.custom.min.js"></script>
+	<link rel="stylesheet" href="<?=base_url()?>assets/jquery/css/ui-lightness/jquery-ui-1.8.18.custom.css">
+	<script src="<?=base_url()?>assets/jquery/js/jquery-1.7.2.js"></script>
+	<script src="<?=base_url()?>assets/jquery/js/jquery-ui-1.8.18.custom.min.js"></script>
 	<script src="<?=base_url()?>_js/global.js"></script>   

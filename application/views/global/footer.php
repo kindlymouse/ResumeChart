@@ -6,7 +6,7 @@
 
 
 		<div class="clearfix">
-		<div class="col230 cloud"></div>
+		<div class="col230 flower"></div>
 
 		<div class="links col230">
 			<h6>关于 <strong>画</strong>简历</h6>
