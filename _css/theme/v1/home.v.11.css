@@ -397,7 +397,7 @@ div#register{position:relative;z-index:12000}
 .cta em{font-style:normal;font-size:12px;color:#7b5019;text-shadow:0px 1px 2px rgba(255,255,255,.3);}
 .cta:hover{text-decoration:none;background:#E68E33;box-shadow:0 0 3px #fff;}
 .next span{background:url(/images/theme/v1/bg/bg_bt_next.png) 14px center no-repeat;text-align:left;padding:12px 10px 10px 58px;}
-.cta-large{background:url(/images/theme/v1/bg/bg_hr.png) center center no-repeat;margin-bottom:20px;}
+.cta-large{background:url(/images/theme/v1/bg/bg_hr.png) center center no-repeat;text-align:c margin-bottom:20px;}
 .top{padding:34px 0 115px 0;background:#fefefe url(/images/theme/v1/bg/bg_top.jpg) center bottom repeat-x;}
 .top .title{font-size:23px;font-weight:100;color:#000;font-family:"Museo-slab";}
 .top .title span{color:#E68E33;font-weight:400;}

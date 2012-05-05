@@ -1,19 +1,14 @@
 <html>
 <head>
-	<title>Test JQuery</title>
+	<title>画简历--新一代图形化简历工具，让你的简历亮起来</title>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Cloud Emailing by Mailjet. Create, send and track your marketing and transactional emails. Easy SMTP integration  & cheap rates: boost your deliverability now!" />
-	<meta http-equiv="X-UA-Compatible" content="IE=9" /> 
-	<meta name="expires" content="never" />
-	<meta name="revisit-after" content="1 day" />
-	<script type="text/javascript" src="http://use.typekit.com/kst0xje.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link type="text/css" rel="stylesheet" href="<?=base_url()?>_css/theme/v1/main.css" media="all" />
-	<link rel="stylesheet" href="<?=base_url()?>assets/css/ui-lightness/jquery-ui-1.8.18.custom.css">
-	<script src="<?=base_url()?>assets/js/jquery/jquery-1.7.2.js"></script>
-	<script src="<?=base_url()?>assets/js/jquery/jquery-ui-1.8.18.custom.min.js"></script>
-	<script src="<?=base_url()?>_js/global.js"></script>    
+ 	<?php $this->load->view('global/head'); ?>
+	
+	<script>
+	$(function(){
+		$("#bt_sign_in").button({icons:{primary: "ui-icon-locked"}});
+	});
+	</script>
 </head>
 <body id="home">
 <!-- WRAPPER -->
@@ -33,7 +28,7 @@
 			<div class="actions">
 				<a href="/signup" class="cta">
 					<span>
-						<strong>立即开始</strong><br/>
+						<strong>马上制作简历</strong><br/>
 						<em>人海中，独我与众不同</em>
 					</span>
 				</a>
@@ -41,44 +36,75 @@
 		</div>
 	</div>
 </div>
-<!-- / HEAD -->
 
-</div>
-<!-- / HEADER -->
-<!-- TOP -->
-<div class="top">
-	<div class="col980">
-		<h2 class="title"><span>Mailjet</span> is a <span>real-time Cloud Emailing</span> platform: scalable, agile and flexible!</h2>
-		<p>Our unique algorithm boosts your deliverability and our platform provides in-depth insight so you can optimize more than ever.<br/>Because 20% of emails never reach the inbox Mailjet is a logical choice!		</p>
+</div><!-- / HEAD -->
+
+<div class="col980 top40" >
+
+	<div class="how">
+	
+		<h4 class="part-title"><span>画</span>简历 怎么用?</h4>
+		<p class="part-sub-title separator">只要简单3步，完成您专属的图形化简历</p>
+	
+		<div class="step step1">
+			<p><strong><span>1</span>建立或导入<br>简历</strong> 
+			Get Ready - Create your free account, download our library and change your SMTP parameters.			</p>
+		</div>
+	
+		<div class="step step2">
+			<p><strong><span>2</span>设置图形化<br>参数</strong> 
+			Start Sending - No warm up or manual validation process. Pay as you go and scale up or down.</p>
+		</div>
+	
+		<div class="step step3">
+			<p><strong><span>3</span>生成简历并<br>保存或发送</strong> 
+			Cruise & Optimize - Leverage Mailjet's analytics and integrate further with the API.</p>
+		</div>
 	</div>
-</div>
-<!-- / TOP -->
-</div>
-<!-- / Main -->
+	
+	<div class="hr"></div>
+	
+	<div class="how">
+	
+		<h4 class="part-title"><span>画</span>简历 是什么?</h4>
+		<p class="part-sub-title separator">新一代的图形化简历工具 让你的简历一击即中</p>
+	
+		<div class="feature-more why">
+			<ul>
+				<li>
+				<img src="<?=base_url()?>_images/theme/v1/en_US/screenshots/feat_tr_repport.png" alt="Emailing made easier"  /><br/>
+				<strong>Emailing made easier</strong>  
+				Forget about SMTP and server maintenance. Forget about your 20% of legitimate emails that never make it to the inbox. Mailjet is easy-to-use, via the online platform and very easy to integrate via SMTP or API.</li>
+		
+				<li>
+				<img src="<?=base_url()?>_images/theme/v1/en_US/screenshots/feat_tr_pricing.png" alt="Full flexibility & lower costs"  /><br/>
+				<strong>Full flexibility & lower costs</strong> 
+				Mailjet's flexibility guarantees that you can always adapt your sending capacity, up or down. Elastic volumes are not longer an issue and you never pay more than what you need. Save time, energy and money!</li>
+		
+				<li>
+				<img src="<?=base_url()?>_images/theme/v1/en_US/screenshots/feat_tr_wizard.png" alt="Quick & easy integration"  /><br/>
+				<strong>Quick & easy integration</strong> 
+				Set-up through SMTP in a few minutes and integrate easily by using our open API. New plugins and add-ons will allow you to use Mailjet with your favorite applications.</li>
+		
+				<li style="margin:0;">
+				<img src="<?=base_url()?>_images/theme/v1/en_US/screenshots/feat_tr_stats.png" alt="Unique features"  /><br/>
+				<strong>Unique features</strong> 
+				Start focusing on your business! Our platform is easy as pie: you click on "send" and we take care of the rest. You will also get in-depth stats and useful tools to be more efficient than ever.</li>
+			</ul>
+		</div>
+	</div>	
 
-<!-- HEADER -->
-<div id="header-wrapper">
-<div id="header" class="col980" >
+	
+</div><!-- / col980 top40 -->
 
-	<p class="logo left">
-		<a href="http://www.mailjet.com/" title="Cloud Emailing">
-			<img src="<?=base_url()?>_images/theme/v1/logos/logo_tiny.png"  alt="画简历" />
-		</a>
-	</p>
+</div><!-- / Main -->
 
-	<div id="fubiao" class="left">
-		<img alt="让你的简历亮起来！" src="<?=base_url()?>_images/theme/v1/logos/fubiao.png">
-	</div>
-    
-	<div id="register">
-	<span>登陆: <div id="sign_in"/></span>
-	<a href="https://www.mailjet.com/signup" class="signup">免费注册</a>
-	</div>
-  
-</div>
-</div>
-<!-- / HEADER -->
-</div>
-<!-- / Wrapper -->
+<?php $this->load->view('global/header'); ?>
+
+
+<?php $this->load->view('global/footer'); ?>
+
+
+</div><!-- / Wrapper -->
 </body>
 </html>
