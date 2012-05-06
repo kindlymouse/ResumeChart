@@ -3,7 +3,7 @@
 <div id="header" class="col980" >
 
 	<p class="logo left">
-		<a href="http://www.mailjet.com/" title="Cloud Emailing">
+		<a href="http://www.huajianli.com/" title="画简历">
 			<img src="<?=base_url()?>_images/theme/v1/logos/logo_tiny.png"  alt="画简历" />
 		</a>
 	</p>
@@ -34,7 +34,9 @@
 		</ul>
 	</div>
     
-	<p id="register"><a href="https://www.mailjet.com/signup">登陆</a><a href="https://www.mailjet.com/signup" class="signup">免费注册</a></p>
+	<p id="register">
+		<a href="">登陆</a><a href="<?=base_url()?>Register" class="signup">免费注册</a>
+	</p>
   
 </div>
 </div><!-- / HEADER -->

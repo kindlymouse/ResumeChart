@@ -14,8 +14,10 @@
 | path to your installation.
 |
 */
-//$config['base_url']	= 'http://119.85.24.191:9090/ResumeChart/';
-$config['base_url']	= 'http://localhost:9090/ResumeChart/';
+$root = "http://".$_SERVER['HTTP_HOST'];
+$root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']).'/';
+$config['base_url']    = "$root";
+//$config['base_url']	= 'http://localhost:9090/~alex/ResumeChart/';
 
 /*
 |--------------------------------------------------------------------------
@@ -225,7 +227,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'gs#^$a&&_kljlu9u08238';
+$config['encryption_key'] = 'gs#^$a&&_iiszhangk%$#yinljlu9u088';
 
 /*
 |--------------------------------------------------------------------------
@@ -363,7 +365,7 @@ $config['proxy_ips'] = '';
 | JQuery
 |--------------------------------------------------------------------------
 */
-$config['javascript_location'] = 'js/jquery/jquery-1.7.2.js';
+$config['javascript_location'] = 'assets/jquery/js/jquery-1.7.2.js';
 $config['javascript_ajax_img'] = 'images/ajax-loader.gif';
 
 /* End of file config.php */

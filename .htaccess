@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /~alex/ResumeChart
+RewriteCond $1 !^(index\.php|_images|_css|_js|assets|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
