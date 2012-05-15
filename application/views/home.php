@@ -32,15 +32,28 @@
 	<div class="slides">
 		<div class="slide" style="display:block;">
 			<div id="easy_slides_container" class="slide-pic">
-				<!-- <img src="<?=base_url()?>_images/theme/v1/sliders/slider_3.png"  alt="画简历" /> -->
 			</div>
 			<div class="actions">
-				<a href="/signup" class="cta">
+			
+			<form action="<?=base_url()?>signup" method="post" class="form">			
+			
+				<div class="element show-text-tips">
+		            <label for="login_uin" class="text-tips">输入注册邮箱</label>
+		            <input id="login_uin" class="text ime-disabled" tabindex="1" type="text" name="login_mail" autocomplete="off" maxlength="80"/>
+				</div>				
+
+				<div id="pwd_wrap" class="element show-text-tips">
+            	 	<label for="login_pwd" class="text-tips">登录密码</label>
+            		<input id="login_pwd" class="text visible" type="password" tabindex="2" name="passwd" maxlength="16" />
+				</div>	
+				<a href="<?=base_url()?>Register" class="cta">
 					<span>
 						<strong>马上制作简历</strong><br/>
 						<em>人海中，独我与众不同</em>
 					</span>
 				</a>
+				
+			</form>
 			</div>			
 		</div>
 	</div>

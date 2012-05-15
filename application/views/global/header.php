@@ -10,7 +10,7 @@
 
 	<div id="menu" class="left">
 		<ul>
-			<li class="home"><a href="http://www.mailjet.com/" title="首页" >首页</a></li>
+			<li class="home"><a href="<?=base_url()?>Home" title="首页" >首页</a></li>
 			<li class="pricing"><a href="http://www.mailjet.com/pricing" title="制作简历" >制作简历</a></li>
 			<li class="tour">
 				<a href="http://www.mailjet.com/features" title="如何使用" class="sub">如何使用</a>
@@ -35,7 +35,7 @@
 	</div>
     
 	<p id="register">
-		<a href="">登陆</a><a href="<?=base_url()?>Register" class="signup">免费注册</a>
+		<a href="<?=base_url()?>SignIn">登陆</a><a href="<?=base_url()?>Register" class="signup">免费注册</a>
 	</p>
   
 </div>
